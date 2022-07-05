@@ -7,15 +7,7 @@ import re
 
 from mugibuilder import *
 
-def to_qwt(qwt):
-    if not qwt.startswith('qwt'):
-        return 'qwt' + qwt
-    return qwt
-
 V0_5_0 = 'v0.5.0'
-
-def qwt_local_path(qwt):
-    return "C:\\Qwt-" + qwt.replace("qwt","")
 
 def flavour_name(tag, compiler, arch):
     return "-".join(["tinyspline", tag, compiler, arch])
