@@ -1,0 +1,6 @@
+__pycache__/
+tinyspline/
+*.zip
+aqtinstall.log
+Tools/
+cmake-3.24.0-rc2-windows-x86_64/
